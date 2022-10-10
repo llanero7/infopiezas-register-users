@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-left">
+      <div class="logo">
+        <img src="img/logo.png" alt="Licitaciones.do">
+      </div>
+    </div>
+
+    <div class="header-right">
+           
+      
+      <div class="log-out">
+        <a href="#"><img src="img/exit-logo.svg" alt=""></a>
+      </div>
+      <div class="contact">
+        <h4 class="contact-header-text">¿Necesitas ayuda?</h4>
+        <div class="whatsapp-number">849-869-8700</div>
+      </div>
+      <div class="company-information text-right">
+        <div>Dirección TecInformación</div>
+        <div class="company-name">SEGUROS RESERVAS</div>
+        <div class="profile">Asegurador</div>
+      </div> 
+    </div>
+
+    <div class="clearfix"></div>
+
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Inicio</a>
+        <a href="#news">Reclamaciones</a>
+        <a href="#news">Licitaciones</a>
+        <a href="#news">Órdenes</a>
+        <div class="dropdown">
+          <button class="dropbtn">Piezas
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <a href="#about">Facturas</a>
+        <a href="#about">Reportes</a>
+        <a href="#about">Administración</a>
+        
+      </div>
+
+    </div>
+    <!-- ./ Navigation -->
+  </div>
+ 
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+
+</body>
+</html>

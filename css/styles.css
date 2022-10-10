@@ -1,0 +1,285 @@
+body {
+    font-family: arial;
+    margin: 0;
+    border-top: solid 8px #0148AD;
+    padding-top: 30px;
+}
+/* --------------------- HEADER ----------------------------------------------------------*/
+.header {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* ------------ HEADER LEFT --------------*/
+
+.logo img{
+    width: 220px;
+}
+
+/* ------------ HEADER RIGHT ------------*/
+/*
+.header-right {
+    float: right;
+    width: 70%;
+} */
+.company-information {
+    float: right;
+    text-align: right;
+    border-right: solid 2px #E1E1E1;
+    padding-right: 24px;
+    margin-right: 24px;
+}
+
+.time-block {
+  border-right: solid 2px #E1E1E1;
+  padding-right: 24px;
+  margin-right: 24px;
+}
+
+.right-border {
+    border-right: solid 2px #E1E1E1;
+    padding-right: 24px;
+    margin-right: 24px;
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.company-information .company-name{
+    font-size: 19px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 240px;
+}
+@media (min-width: 1200px) { 
+  .company-information .company-name{
+    max-width: 350px;
+  }
+}
+
+
+.company-information .profile {
+    color: #8B8B8B;
+    margin-top: -7px;
+}
+
+.contact {
+    float: right;
+    border-right: solid 2px #E1E1E1;
+    padding-right: 21px;
+}
+.contact h4{
+    margin: 0;
+}
+.log-out {
+    float: right;
+    width: 57px;
+    height: 57px;
+    margin-left: 20px;
+}
+.nav-wrapper {
+    background: #0148AD;
+    border-radius: 8px;
+    color: #fff;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.contact-header-text {
+    font-weight: normal;
+    font-size: 18px;
+}
+.whatsapp-number {
+    padding: 8px 0 8px 32px;
+    font-size: 20px;
+    background: url("../img/whatsapp-icon.svg") no-repeat 0 11px;
+    background-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+.log-out img{
+    width: 57px;
+}
+/* ------------ NAVIGATION ------------*/
+.nav-item {
+    padding: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.nav {
+  height: 50px;
+  background: #0148AD;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+/* --------------------- GENERAL CONTENT  -------------------------------------------------------*/
+.detail-box {
+  background: #F4F4F4;
+  padding: 25px 20px;
+  margin-bottom: 30px;
+}
+
+.table.slim>:not(caption)>*>* {
+  border: none;
+  padding: 0.02rem 0;
+}
+
+h1 {
+  color: #0148AD;
+  font-weight:bold;
+  font-size: 27px;
+}
+h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #424952;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #424952;
+}
+
+.box-alert {
+  background: #FDF5E3;
+  border:solid 1px #E1D491;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 30px;
+  width: 90%;
+  margin: 30px auto;
+}
+.box-alert .large-btn {
+  background-color: #0148AD !important;
+  color: #fff;
+  font-size: 20px;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #0148AD;
+  border-color: #0148AD;
+  padding: 4px 22px;
+}
+
+.go-back {
+  text-decoration: none;
+}
+/* --------------------- TABLE STYLES -------------------- */
+.md-first-colum tr td:first-child {
+  width: 40%;
+}
+
+table thead {
+  background: #7085A3;
+  color: #fff;
+}
+table thead td {
+  padding: 0.7rem 0.5rem !important;
+}
+.table>:not(caption)>*>* {
+  border: none;
+}
+
+.see-more {
+  text-decoration: none;
+  color: #0148AD;
+  background: url("../img/eye.svg") no-repeat 0 0;
+  padding: 3px 0 5px 32px;
+}
+
+.table a {
+  text-decoration: none;
+  color: #0148AD;
+}
+.table a:hover {
+  text-decoration: underline;;
+}
+
+.go-back {
+  background: url(../img/back-arrow.svg) no-repeat 0 center;
+  padding: 10px 10px 10px 30px;
+  font-size: 20px;
+  color: #476288;
+}
+.go-back:hover {
+  text-decoration: none;
+  color: #5A759B;
+}
+
+
+/* ---------------- SIMPLE FILTER LINKS ------------------- */
+.simple-filter-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 15px;
+}
+.simple-filter-links li {
+  display: inline-block;
+}
+
+.simple-filter-links li a {
+  text-decoration: none;
+  color: #0148AD;
+  padding: 1px 20px;
+  border-right: solid 1px #B5B5B5;
+}
+.simple-filter-links li:last-child a {
+  border-right: none;
+}
+/* --------------------- NAVIGATION -------------------------------------------------------*/
+
+
+footer {
+  background:#F5F5F5;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+/* --------------------- RESPOSIVE STYLES -------------------------------------------------------*/
+
+
+.company-information {
+  display: none;
+}
+
+.logo {
+  text-align: center;
+}
+
+.hide-on-mobile {
+  display: none;
+}
+
+@media (min-width: 992px) { 
+  .company-information {
+    display: block;
+  }
+  .logo {
+    text-align: left;
+  }
+  .hide-on-mobile {
+    display: block;
+  }
+}
+
+
+/* 
+@media (min-width: 992px) { ... }
+
+*/
