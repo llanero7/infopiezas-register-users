@@ -1,4 +1,20 @@
 
+.d1 {
+  background: pink;
+}
+.d2 {
+  background: lightcyan;
+}
+.d3 {
+  background:lightgray;
+}
+.d4 {
+  background: lightgreen;
+}
+.d5 {
+  background: lightskyblue;
+}
+
 body {
     font-family: arial;
     margin: 0;
@@ -18,11 +34,7 @@ body {
 }
 
 /* ------------ HEADER RIGHT ------------*/
-/*
-.header-right {
-    float: right;
-    width: 70%;
-} */
+
 .company-information {
     float: right;
     text-align: right;
@@ -127,11 +139,17 @@ body {
   height: 100%;
 }
 
-.table.slim>:not(caption)>*>* {
-  border: none;
-  padding: 0.02rem 0;
+.box-alert {
+  background: #FDF5E3;
+  border:solid 1px #E1D491;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 30px;
+  width: 90%;
+  margin: 30px auto;
 }
 
+/* --------------------- TEXT & TITLES -------------------- */
 h1 {
   color: #0148AD;
   font-weight:bold;
@@ -150,15 +168,19 @@ h3 {
   color: #424952;
 }
 
-.box-alert {
-  background: #FDF5E3;
-  border:solid 1px #E1D491;
-  border-radius: 6px;
-  padding: 15px;
-  margin-bottom: 30px;
-  width: 90%;
-  margin: 30px auto;
+.mt-align-title {
+  margin-top:0;
+  margin-bottom: 20px;
 }
+
+@media (min-width: 992px) { 
+  .mt-align-title {
+    margin-top: -56px;
+  }
+}
+
+/* --------------------- BUTTON STYLES -------------------- */
+
 .box-alert .large-btn {
   background-color: #0148AD !important;
   color: #fff;
@@ -189,18 +211,61 @@ h3 {
   text-decoration: none;
 }
 
-.mt-align-title {
-  margin-top:0;
-  margin-bottom: 20px;
+.btn-fix-width {
+  width: 234px;
+  margin-left: 20px;
+  padding: 6px 22px;
+}
+.btn-fix-width:hover {
+  text-decoration: none;
 }
 
-@media (min-width: 992px) { 
-  .mt-align-title {
-    margin-top: -56px;
+label {
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) { 
+  .pr-lg-50{
+    padding-right: 50px;
+  }
+  .pl-lg-50{
+    padding-left: 50px;
   }
 }
 
+.fixed-heigth {
+  height: 38px;
+}
+
+.calendar-picker {
+  background: #0148AD url("../img/calendar-icon.svg") no-repeat 8px 7px;
+  width: 40px;
+  height: 37px;
+  margin-left: 20px;
+  border-radius: 4px;
+  border: none;
+} 
+.question-sign {
+  background: #0148AD url("../img/question-sign.svg") no-repeat 10px 9px;
+  width: 33px;
+  margin-left: 20px;
+  border-radius: 50px;
+  border: none;
+  background-size: 10px;
+  height: 30px;
+  margin: 4px 0 0 13px;
+}
+
+
+
 /* --------------------- TABLE STYLES -------------------- */
+
+.table.slim>:not(caption)>*>* {
+  border: none;
+  padding: 0.02rem 0;
+}
+
+
 .md-first-colum tr td:first-child {
   width: 40%;
 }
@@ -254,6 +319,7 @@ tfoot td{
   min-width:1000px;
 }
 
+
 /* ---------------- SIMPLE FILTER LINKS ------------------- */
 .simple-filter-links {
   list-style: none;
@@ -275,7 +341,7 @@ tfoot td{
 .simple-filter-links li:last-child a {
   border-right: none;
 }
-/* --------------------- NAVIGATION -------------------------------------------------------*/
+/* --------------------- FOOTER -----------------------------------------------------------------*/
 
 
 footer {

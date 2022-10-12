@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Infopiezas - Mercado de repuestos</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+  </head>
+  <body>
+    
+    <header>
+      <div class="container">
+        <div class="row">
+            <div class="col-xl-3">
+                <div class="logo">
+                    <img src="img/infopiezas-logo.svg" alt="Licitaciones.do">
+                </div>
+            </div>
+            <div class="col-lg-9 hide-on-mobile">
+                <div class="header-right d-flex justify-content-end">
+                    <div class="time-block d-flex align-items-center">
+                      Hora:&nbsp;<strong>9:44 a.m.</strong>
+                    </div> 
+                    <div class="company-information text-right">
+                        <div>Dirección TecInformación</div>
+                        <div class="company-name">SEGUROS RESERVAS</div>
+                        <div class="profile">Asegurador</div>
+                    </div> 
+                    <div class="contact">
+                      <h4 class="contact-header-text">¿Necesitas ayuda?</h4>
+                      <div class="whatsapp-number">849-869-8700</div>
+                    </div>
+                    <div class="log-out">
+                      <a href="#"><img src="img/exit-logo.svg" alt=""></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="nav">
+            <div  style="color:#fff;padding: 13px;">Navigation here</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="text-center mb-4">Nueva licitación</h1>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Fields block a -->
+        <div class="col-lg-6 mb-4 pr-lg-50">
+            <div class="col-lg-12">
+                <h2>Datos de la solicitud</h2>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Aseguradora</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Reclamación no.</label>
+                </div>
+                <div class="col-xl-9 d-flex">
+                    <input type="text" class="form-control fixed-heigth">
+                    <a href="#" class="btn btn-primary btn-fix-width fixed-heigth">Buscar datos</a>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Tipo de suplidor</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fields block B -->
+        <div class="col-lg-6 mb-4 pl-lg-50">
+            <div class="col-lg-12">
+                <h2>Datos del asegurado</h2>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Nombre asegurado</label>
+                </div>
+                <div class="col-xl-9">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Póliza No.</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Fecha de accidente</label>
+                </div>
+                <div class="col-xl-9 d-flex">
+                    <input type="text" class="form-control fixed-heigth">
+                    <button class="calendar-picker"></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fields block C -->
+        <div class="col-lg-6 mb-4 pr-lg-50">
+            <div class="col-lg-12">
+                <h2>Datos del vehículo</h2>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Chasis</label>
+                </div>
+                <div class="col-xl-9 d-flex">
+                    <input type="text" class="form-control">
+                    <a href="#" class="btn btn-primary btn-fix-width">Consultar</a>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Marca</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Modelo</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select" disabled>
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Año</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Taller</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fields block D -->
+        <div class="col-lg-6 mb-4 pl-lg-50">
+            <div class="col-lg-12">
+                <h2>Datos de solicitud</h2>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Tiempo</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Tipo de piezas</label>
+                </div>
+                <div class="col-xl-9 d-flex">
+                    <select class="form-select">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <button class="question-sign"></button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Tipo de licitación</label>
+                </div>
+                <div class="col-xl-9 d-flex">
+                    <select class="form-select fixed-heigth">
+                        <option selected>Seleccione</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                    <button class="question-sign"></button>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-xl-3">
+                    <label class="pt-xl-2">Ciudad entrega</label>
+                </div>
+                <div class="col-xl-9">
+                    <select class="form-select">
+                        <option selected>Santo Domingo</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="detail-box">
+                    <h2>Piezas a licitar</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-3 mb-3">
+                            <label>Cantidad</label>
+                            <select class="form-select">
+                                <option selected>Seleccione</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-3">
+                            <label>Tipo</label>
+                            <select class="form-select">
+                                <option selected>Seleccione</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-3">
+                            <label>Acción</label>
+                            <select class="form-select">
+                                <option selected>Seleccione</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-3">
+                            <div class="d1">..</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Piezas de esta licitación</h1>
+            </div>
+            <div class="col-lg-12">
+                <div class="empty-box text-center">
+                    No se han seleccionado piezas para esta licitación.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Imágenes</h2>
+                <p>Puede seleccionar hasta 3 imágenes para anexar a su licitación.  El tamaño cada archivo debe ser menor a 1MB.</p>
+                <fieldset>
+                    
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-end">
+            ©2005 - 2022 Asesores Técnicos Empresariales, S.A.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
