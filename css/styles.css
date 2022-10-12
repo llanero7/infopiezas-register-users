@@ -1,3 +1,4 @@
+
 body {
     font-family: arial;
     margin: 0;
@@ -13,7 +14,7 @@ body {
 /* ------------ HEADER LEFT --------------*/
 
 .logo img{
-    width: 220px;
+    width: 230px;
 }
 
 /* ------------ HEADER RIGHT ------------*/
@@ -123,7 +124,7 @@ body {
 .detail-box {
   background: #F4F4F4;
   padding: 25px 20px;
-  margin-bottom: 30px;
+  height: 100%;
 }
 
 .table.slim>:not(caption)>*>* {
@@ -174,10 +175,31 @@ h3 {
   border-color: #0148AD;
   padding: 4px 22px;
 }
-
+.btn-secondary {
+  color: #fff;
+  background-color: #0D7BBC;
+  border-color: #0D7BBC;
+  padding: 4px 22px;
+}
+.btn-secondary:hover {
+  background-color: #1A89CA;
+  border-color: #1A89CA;
+}
 .go-back {
   text-decoration: none;
 }
+
+.mt-align-title {
+  margin-top:0;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) { 
+  .mt-align-title {
+    margin-top: -56px;
+  }
+}
+
 /* --------------------- TABLE STYLES -------------------- */
 .md-first-colum tr td:first-child {
   width: 40%;
@@ -201,25 +223,36 @@ table thead td {
   padding: 3px 0 5px 32px;
 }
 
-.table a {
+.table a, a{
   text-decoration: none;
   color: #0148AD;
 }
-.table a:hover {
+.table a:hover, a:hover {
   text-decoration: underline;;
 }
 
 .go-back {
   background: url(../img/back-arrow.svg) no-repeat 0 center;
   padding: 10px 10px 10px 30px;
-  font-size: 20px;
-  color: #476288;
+  font-size: 18px;
+  color: #0D7BBC;
 }
 .go-back:hover {
   text-decoration: none;
-  color: #5A759B;
+  color: #0D7BBC;
 }
 
+.width-215 {
+  width: 215px;
+}
+
+tfoot td{
+  padding: 0 .5rem !important;
+}
+
+.table-responsive .table{
+  min-width:1000px;
+}
 
 /* ---------------- SIMPLE FILTER LINKS ------------------- */
 .simple-filter-links {
