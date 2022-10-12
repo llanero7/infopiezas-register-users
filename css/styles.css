@@ -197,6 +197,7 @@ h3 {
   border-color: #0148AD;
   padding: 4px 22px;
 }
+
 .btn-secondary {
   color: #fff;
   background-color: #0D7BBC;
@@ -207,6 +208,19 @@ h3 {
   background-color: #1A89CA;
   border-color: #1A89CA;
 }
+
+.btn-outline-primary {
+  border-color: #0148AD;
+  color: #0148AD;
+  padding: 4px 22px;
+}
+.btn-outline-primary:hover {
+  border-color: #0148AD;
+  background: #0148AD;
+  color: #fff;
+  padding: 4px 22px;
+}
+
 .go-back {
   text-decoration: none;
 }
@@ -235,6 +249,9 @@ label {
 
 .fixed-heigth {
   height: 38px;
+}
+.ml-3 {
+  margin-left: 15px !important;
 }
 
 .calendar-picker {
@@ -319,6 +336,20 @@ tfoot td{
   min-width:1000px;
 }
 
+.empty-box {
+  padding: 50px;
+  background: #FBFBFB;
+  margin-bottom: 30px;
+  border: dashed 1px #DCDCDC;
+  border-radius: 6px;
+  color: #999;
+}
+
+.screen-actions {
+  padding-top: 20px;
+  border-top: solid 2px #eee;
+  margin-top: 30px;
+}
 
 /* ---------------- SIMPLE FILTER LINKS ------------------- */
 .simple-filter-links {

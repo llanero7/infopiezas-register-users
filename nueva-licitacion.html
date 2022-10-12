@@ -285,7 +285,7 @@
                                 <option value="2">Two</option>
                             </select>
                         </div>
-                        <div class="col-md-6 col-xl-3 mb-3">
+                        <div class="col-md-6 col-xl-2 mb-3">
                             <label>Acción</label>
                             <select class="form-select">
                                 <option selected>Seleccione</option>
@@ -293,8 +293,13 @@
                                 <option value="2">Two</option>
                             </select>
                         </div>
-                        <div class="col-md-6 col-xl-3 mb-3">
-                            <div class="d1">..</div>
+                        
+                        <div class="col-md-6 col-xl-4">
+                            <label>Pieza</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control fixed-heigth">
+                                <button class="btn btn-primary fixed-heigth ml-3">Buscar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -320,14 +325,39 @@
             <div class="col-lg-12">
                 <h2>Imágenes</h2>
                 <p>Puede seleccionar hasta 3 imágenes para anexar a su licitación.  El tamaño cada archivo debe ser menor a 1MB.</p>
-                <fieldset>
-                    
-                </fieldset>
+            </div>
+            <div class="col-md-5">
+                <div class="d-flex mb-3">
+                    <input type="text" class="form-control fixed-heigth">
+                    <button class="btn btn-primary fixed-heigth ml-3">Buscar</button>
+                </div>
+                <div class="d-flex mb-3">
+                    <input type="text" class="form-control fixed-heigth">
+                    <button class="btn btn-primary fixed-heigth ml-3">Buscar</button>
+                </div>
+                <div class="d-flex mb-3">
+                    <input type="text" class="form-control fixed-heigth">
+                    <button class="btn btn-primary fixed-heigth ml-3">Buscar</button>
+                </div>
+                <div class="mb-3">
+                    <label>Comentarios</label>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                </div>
             </div>
         </div>
     </div>
 
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <div class="screen-actions d-flex justify-content-end">
+                    <button class="btn btn-primary ml-3">Grabar</button>
+                    <button class="btn btn-primary ml-3">Enviar</button>
+                    <button class="btn btn-outline-primary  ml-3">Canelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
       <div class="container">
         <div class="row">
