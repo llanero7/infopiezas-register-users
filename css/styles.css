@@ -209,6 +209,12 @@ h3 {
   border-color: #1A89CA;
 }
 
+.btn-secondary:active,
+.btn-secondary:focus {
+  background-color: #0D7BBC !important;
+  border-color: #0D7BBC !important;
+}
+
 .btn-outline-primary {
   border-color: #0148AD;
   color: #0148AD;
@@ -230,6 +236,11 @@ h3 {
   margin-left: 20px;
   padding: 6px 22px;
 }
+
+.btn-fix-width.lg-270 {
+  width: 270px;
+}
+
 .btn-fix-width:hover {
   text-decoration: none;
 }
